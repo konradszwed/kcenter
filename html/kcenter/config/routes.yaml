@@ -4,3 +4,7 @@
 index:
     path: /
     controller: App\Controller\MainController::index
+
+custom:
+    path: /custom
+    controller: App\Controller\MainController::custom

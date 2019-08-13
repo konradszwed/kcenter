@@ -2,19 +2,33 @@
 
 namespace App\Controller;
 
+
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
 class MainController extends AbstractController
 {
     /**
-     * @Route("/main", name="main")
+     * @Route("/", name="index")
      */
-    public function index()
+    public function index(Request $request)
     {
-        return $this->json([
-            'message' => 'Welcome to your new controller!',
-            'path' => 'src/Controller/MainController.php',
-        ]);
+        dump($request);
+
+        return new Response( '<h2>index</h2>');
+
+    }
+
+    /**
+     * @Route("/custom/{name?}", name="custom")
+     * @param RequestAlias $request
+     * @return Response
+     */
+
+    public function custom(Request $request){
+        dump($request);
+        return new Response('<h2>CUSTOM PAGE</h2>');
     }
 }
