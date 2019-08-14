@@ -17,3 +17,11 @@ Konfiguracja nginx:
 https://www.nginx.com/resources/wiki/start/topics/recipes/symfony/
 
 sudo apt-get install php7.2-xml
+
+Composer:
+
+>orm
+
+>bootstrap
+
+>twig

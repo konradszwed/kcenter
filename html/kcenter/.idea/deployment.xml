@@ -30,6 +30,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="kcenter">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/vagrant/html/kcenter" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="virtual-la-dev">
         <serverdata>
           <mappings>
