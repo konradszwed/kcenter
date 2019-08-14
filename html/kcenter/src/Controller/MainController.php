@@ -17,7 +17,8 @@ class MainController extends AbstractController
     {
         dump($request);
 
-        return new Response( '<h2>index</h2>');
+        return $this->render('home/index.html.twig');
+        //return new Response( '<h2>index</h2>');
 
     }
 
@@ -29,6 +30,11 @@ class MainController extends AbstractController
 
     public function custom(Request $request){
         dump($request);
-        return new Response('<h2>CUSTOM PAGE</h2>');
+        $content=$request->get('name');
+        return $this->render('home/custom.html.twig', [
+            'content' => $content
+        ]);
+        //return new Response('<h2>'.$content.'</h2>');
     }
+
 }

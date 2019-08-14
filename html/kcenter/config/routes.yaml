@@ -6,5 +6,6 @@ index:
     controller: App\Controller\MainController::index
 
 custom:
-    path: /custom
+    path: /{name?}
     controller: App\Controller\MainController::custom
+
