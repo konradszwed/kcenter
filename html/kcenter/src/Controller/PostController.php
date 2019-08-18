@@ -4,7 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Post;
 use App\Repository\PostRepository;
-use Psr\Container\ContainerInterface;
+//use Psr\Container\ContainerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -45,18 +45,35 @@ class PostController extends AbstractController
         $em->persist($post);
         $em->flush();
 
-        return new Response('Post was created');
+        return $this->redirect($this->generateUrl('post.post'));
     }
 
     /**
      * @Route("/show/{id}", name="show")
+     * @param Post $post
+     * @return Response
      */
-    public function show($id, PostRepository $postRepository)
+    public function show(Post $post)
     {
-        $post = $postRepository->find($id);
+        //$post = $postRepository->find($id);
 
         return $this->render('post/show.html.twig', [
             'post' => $post
         ]);
+    }
+
+    /**
+     * @Route("/delete/{id}", name="delete")
+     * @param Post $post
+     * @return Response
+     */
+    public function delete(Post $post)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $em->remove($post);
+        $em->flush();
+
+
+        return $this->redirect($this->generateUrl('post.post'));
     }
 }

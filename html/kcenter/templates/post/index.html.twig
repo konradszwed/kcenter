@@ -7,6 +7,7 @@
 </style>
 
     <div>List of stuff:</div>
+    <a class="btn btn-primary" role="button" href="{{ path('post.create')}}">Create</a>
 <table class="table">
     <thead>
     <tr>
@@ -21,7 +22,9 @@
             <th scope="row">{{ post.id }}</th>
             <td><a href="{{ path('post.show',{id: post.id}) }}">{{post.title}}</a></td>
             <td>{{post.description}}</td>
-
+            <td>
+                <a class=text-danger href="{{ path('post.delete',{id : post.id}) }}">Delete</a>
+            </td>
     </tr>
     {%  endfor %}
     </tbody>

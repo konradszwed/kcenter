@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75fc92f9-6382-4269-82bf-3fba1f173066" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/show" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/PostController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/PostRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/post/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/post/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kcenter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kcenter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/custom.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/custom.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/post/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ubuntu-bionic-18.04-cloudimg-console.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../ubuntu-bionic-18.04-cloudimg-console.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +142,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/post" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -183,12 +166,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@67f4e055" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -212,6 +190,8 @@
       <workItem from="1565704411307" duration="1170000" />
       <workItem from="1565767682522" duration="7474000" />
       <workItem from="1565779220152" duration="9723000" />
+      <workItem from="1565946170956" duration="4740000" />
+      <workItem from="1565956218808" duration="1388000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap, composer script to auto boostrap, twig and basic templates">
       <created>1565772514050</created>
