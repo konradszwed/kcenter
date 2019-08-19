@@ -25,5 +25,3 @@ Composer:
 >bootstrap
 
 >twig
-
->security
